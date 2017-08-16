@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GRIPP</string>
+    <string name="save">Save</string>
+    <string name="developedby">Developed By Harsh Gupta(harshgupta.04@gmail.com)</string>
+    <string-array name="unit_array">
+        <item>unit1</item>
+        <item>unit2</item>
+    </string-array>
+    <string name="title_activity_chat">ChatActivity</string>
+</resources>

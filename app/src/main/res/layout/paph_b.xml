@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+    >
+<LinearLayout
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:layout_margin="10dp">
+    <include layout="@layout/extra_save_button"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAPH-B"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:textColor="#333"
+            android:text="Gear Box Oil Level"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:textColor="#333"
+            android:text="Air Motor Air Pr"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:id="@+id/paph_b_gearboxoillevvel"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-condensed"
+            android:background="@drawable/redrectangle"
+            android:padding="3dp"
+            android:gravity="left|top|start"
+            android:layout_margin="2dp"
+            />
+        <EditText
+            android:id="@+id/paph_b_airmotorairpr"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-condensed"
+            android:background="@drawable/redrectangle"
+            android:gravity="left|top|start"
+            android:padding="3dp"
+            android:layout_margin="2dp"
+            />
+    </LinearLayout>
+    <TableLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+        <TextView
+            android:text="GUIDE BEARING"
+            android:padding="3dp"/>
+        </TableRow>
+    <TableRow>
+        <TextView
+            android:text="LOP I/S"
+            android:padding="3dp"/>
+        <TextView
+            android:text="Oil Pr"
+            android:padding="3dp"/>
+        <TextView
+            android:text="Oil Temp"
+            android:padding="3dp"/>
+        <TextView
+            android:text="Oil Lvl"
+            android:padding="3dp"/>
+        <TextView
+            android:text="Flow"
+            android:padding="3dp"/>
+    </TableRow>
+        <TableRow>
+            <EditText
+                android:id="@+id/paph_b_guide_lopis"
+                android:padding="3dp"/>
+            <EditText
+                android:id="@+id/paph_b_guide_oilpr"
+                android:padding="3dp"/>
+            <EditText
+                android:id="@+id/paph_b_guide_oiltemp"
+                android:padding="3dp"/>
+            <EditText
+                android:id="@+id/paph_b_guide_oillevel"
+                android:padding="3dp"/>
+            <EditText
+                android:id="@+id/paph_b_guide_flow"
+                android:padding="3dp"/>
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TableRow>
+            <TextView
+                android:text="SUPPORT BEARING"
+                android:padding="3dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="LOP I/S"
+                android:padding="3dp"/>
+            <TextView
+                android:text="Oil Pr"
+                android:padding="3dp"/>
+            <TextView
+                android:text="Oil Temp"
+                android:padding="3dp"/>
+            <TextView
+                android:text="Oil Lvl"
+                android:padding="3dp"/>
+            <TextView
+                android:text="Flow"
+                android:padding="3dp"/>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:id="@+id/paph_b_support_lopis"
+                android:padding="3dp"/>
+            <EditText
+                android:id="@+id/paph_b_support_oilpr"
+                android:padding="3dp"/>
+            <EditText
+                android:id="@+id/paph_b_support_oiltemp"
+                android:padding="3dp"/>
+            <EditText
+                android:id="@+id/paph_b_support_oillevel"
+                android:padding="3dp"/>
+            <EditText
+                android:id="@+id/paph_b_support_flow"
+                android:padding="3dp"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+    </ScrollView>

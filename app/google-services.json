@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "842629876892",
+    "firebase_url": "https://gripp-2b1a9.firebaseio.com",
+    "project_id": "gripp-2b1a9",
+    "storage_bucket": "gripp-2b1a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842629876892:android:d1d87f2c7302ec29",
+        "android_client_info": {
+          "package_name": "org.gripp.android.gripp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842629876892-b22n7fa1451baemsd0dvu1vs7b8e0ug7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.gripp.android.gripp",
+            "certificate_hash": "b4d90151c541c153de0cd49bb49ba1a34741b213"
+          }
+        },
+        {
+          "client_id": "842629876892-dq6845nb857or2dcl4mfinin3j42l9fc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf43IWvXWMYK-8ZklKgN3s3MMGBdCn1QY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842629876892-dq6845nb857or2dcl4mfinin3j42l9fc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
